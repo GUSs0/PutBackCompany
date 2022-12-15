@@ -1,0 +1,76 @@
+body{
+    background:linear-gradient(72deg, rgb(0, 0, 0) 10% , rgb(56, 56, 56) 99%) ;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background:rgb(56, 56, 56);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 3px solid rgb(56, 56, 56);
+  }
+
+.bio-ptbk, .fotos-modelos-texto, .bio-produtos{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(182, 182, 182);
+}
+
+.logoinsta{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.title{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: rgb(182, 182, 182);
+    font-size: 40px;
+}
+
+.inkoboludo{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.produtos{
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 5px;
+}
+
+
+.modelos{
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 5px;
+}
+
+.patch_jacket{
+    width: 200px;
+    margin: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.biofooter{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: rgb(182, 182, 182);
+    font-size: 15px;
+}
